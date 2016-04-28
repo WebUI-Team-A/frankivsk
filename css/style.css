@@ -17,14 +17,13 @@ header {
 }
 
 nav {
-	padding-top: 20px;
 	display: block;
-}
-
-nav ul li {
-	display: inline-block;
 	float: right;
-	padding-right: 20px;
+	padding: 20px 20px 0 0;
+}
+	
+nav ul li {
+	display: inline-block;	
 }
 
 h1 {
@@ -42,7 +41,17 @@ h3 {
 }
 
 a {
+	color: #fff;
 	text-decoration: none;
+	padding: 5px 20px;
+	display: block;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 20px;
 }
 
 .clear {
@@ -81,17 +90,35 @@ a {
 
 }
 
+/* Styles for images*/
 .old {
 	float: left;
 	border-radius: 50%;
-	margin: 0 20px 50px 50px;;
+	margin: 0 20px 50px 50px;
 }
 
-.text {
+
+.kovali {
+	float: right;
+	border-radius: 50%;
+	margin: 0 50px 50px 20px;
+}
+
+
+/* ***************  */
+.text-1 {
 	display: block;
 	width: 840px;
 	float: right;
 	margin-right: 50px;
+	padding-top: 40px;
+}
+
+.text-2 {
+	display: block;
+	width: 840px;
+	float: left;
+	margin-left: 50px;
 	padding-top: 40px;
 }
 
