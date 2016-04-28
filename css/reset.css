@@ -57,24 +57,7 @@ nav ul {
 html {
 	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
 }
-body {
-	color: #000;
-	text-align: left;
-	font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
-	min-height:100%;
-}
-a, a:visited { /* порядок правил для ссылок имеет значение */
-	color: #e6618c;
-	text-decoration: underline;
-}
-a:hover {
-	color: #fdf208;
-	text-decoration:none;
-}
-a:focus, a:active {
-	color: #c83867;
-	text-decoration: underline;
-}
+
 h1, h2, h3, h4, h5, h6{
 	font-weight:normal;
 }
