@@ -1,17 +1,16 @@
 @import url(reset.css);
 
 body{
+	background: url(../img/main-bg.jpg) fixed;
+	background-size: cover;
    color: #fff;
    font: 1em/1.6em Roboto, Arial, sans-serif;
-   background-size: cover;
-   -webkit-background-size: cover;
-   background-size: cover;
-   background: url(../img/main-bg.jpg) fixed ;
+   
+   
 }
 
 header {
 	background: url(../img/main-bg.jpg) center no-repeat;
-   -webkit-background-size: cover;
    background-size: cover;
    text-align: center;
    text-shadow: 1px 1px 2px #000;
