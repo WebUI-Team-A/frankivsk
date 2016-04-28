@@ -5,8 +5,6 @@ body{
 	background-size: cover;
    color: #fff;
    font: 1em/1.6em Roboto, Arial, sans-serif;
-   
-   
 }
 
 header {
@@ -54,6 +52,10 @@ nav ul li a:hover {
 	border-radius: 20px;
 }
 
+footer ul li {
+	display: inline-block;	
+}
+
 .clear {
 	clear: both;
 }
@@ -86,7 +88,7 @@ nav ul li a:hover {
 .h3-title {
 	text-align: center;
 	font-weight: normal;
-	padding: 20px 0 20px 20px;
+	padding: 30px 0 30px 20px;
 
 }
 
@@ -98,7 +100,7 @@ nav ul li a:hover {
 }
 
 
-.kovali {
+.kovali, .sport {
 	float: right;
 	border-radius: 50%;
 	margin: 0 50px 50px 20px;
@@ -111,7 +113,7 @@ nav ul li a:hover {
 	width: 840px;
 	float: right;
 	margin-right: 50px;
-	padding-top: 40px;
+	padding-top: 35px;
 }
 
 .text-2 {
@@ -139,4 +141,8 @@ nav ul li a:hover {
 
 .footer {
 	background: #F0F6FC;
+}
+
+.social {
+	padding-top: 30px;
 }
