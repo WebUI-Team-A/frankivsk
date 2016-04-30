@@ -1,89 +1,158 @@
+@import url(reset.css);
+
+body {
+	background: #fff;
+	background-size: cover;
+    color: #fff;
+    font-size: 1.2em; 
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
 header {
-	background: #35D3A7;
-}
-
-.header-inner {
-	width: 1200px;
-	margin: 0 auto;
-}
-
-.header-inner h1 {
-	font-size: 35px;
-	color: #ffffff;
-	padding: 10px 0 10px 0;
+	background: url(../img/main-bg.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
 }
 
 section {
-	padding-top: 50px;
-	text-align: center;
-	overflow: auto;
+	background: #fff;
+	
+}
+
+nav {
+	display: block;
+	float: right;
+	margin-top: 10px;
+	padding: 20px 20px 0 0;
+}
+
+img{
+	max-width: 100%;
+}
+	
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	display: block;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	border-radius: 20px;
+}
+
+footer ul li {
+	display: inline-block;	
+}
+
+.clear {
 	clear: both;
+}
+
+.dbg {
+	background:rgba(40, 76, 88, 0.498039);
+}
+
+.logo {
+	float: left;
+
+}
+
+
+
+/* Styles for images*/
+
+
+/* ***************  */
+
+
+.footer {
+	background: #F0F6FC;
+	height: 100px;
+	background: #fff;
+	color: #000;
+}
+
+.social {
+	padding-top: 30px;
+	float: left;
+	margin-left: 30px;
+}
+
+.team {
+	float: right;
+	padding: 50px 65px 0 0;
+	color: #6C615E;
+	font-size: 1em;
+	font-weight: 800;
+}
+
+.team a {
+	color: #6C615E;
+	display: inline-block;
+	padding: 0;
+}
+
+/* Media */
+
+
+/*+++++++++ Nick ++++++++++*/
+
+.header-inner h1 {
+	font-size: 35px;
+	color: #c0c0c0;
+	padding: 10px 0 10px 0;
 }
 
 .wrapper {
 	width: 1200px;
 	margin: 0 auto;
-	clear: both;
 }
 
 article {
-	width: 250px;
-	height: 425px;
-	float: left;
-	margin-right: 130px;
-	padding-bottom: 25px;
+	overflow: hidden;
+	margin-top: 35px;
 }
 
 .photo {
-	width: 100%;
-	text-align: center;
-	border:5px solid #9A9696;
+	float: left;
+	border: 5px solid #9A9696;
 	border-radius: 50%;
-	position: relative;
-}
-
-@-webkit-keyframes action {
-	0% {
-		top: 0;
-	}
-	10% {
-		top: 10px;
-	}
-	20% {
-		top: -5px;
-	}
-	30% {
-		top: 10px;
-	}
-	40% {
-		top: 0px;
-	}
 }
 
 .photo:hover {
-	-webkit-animation: action 2s;
+	
+	border:5px solid #134C81;
+	border-radius: 50%;
 }
 
-.photo:hover {
-	width: 100%;
-	border:5px solid #35D3A7;
-	border-radius: 50%;
+.post-content {
+	margin-left: 250px;
 }
 
 article h3 {
-	font-size: 25px;
-	font-weight: bold;
+	color: #000;
 	text-align: center;
-	margin: 10px 0 10px 0;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
 }
 
 article p {
-	font-size: 15px;
-	color: #9A9696;
-	text-align: center;
-}
-
-footer {
-	background: #35D3A7;
-	height: 50px;
+	color: #000;
+	
 }
