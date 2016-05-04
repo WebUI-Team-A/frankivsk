@@ -57,7 +57,7 @@ nav ul li a:hover {
 
 footer {
 	border-top: 2px solid #6C615E;
-	margin-top: 1500px;
+	margin-top: 200px;
 }
 
 footer ul li {
@@ -116,7 +116,7 @@ footer ul li {
 	border: 5px solid #9A9696;
 	border-radius: 50%;
 	width: 300px;
-	margin-top: 30px;
+	margin-top: 70px;
 }
 .photo:hover {
 	
@@ -135,13 +135,26 @@ h3{
 .text_content{
 	margin-left: 350px;
 	margin-top: 30px;
+	margin-right: 50px;
 	}
 	.text_content1{
 		margin-left: 50px;
 		margin-top: 30px;
+		margin-right: 350px;
 	}
 	#clickme{
 		color: blue;
 		cursor: pointer;
+	}
+	.flex_parent{
+		display: flex;
+		flex-direction: column;
+	}
+	article{
+		margin-top: 50px;
+	}
+	.viva_align{
+		margin-top: 120px;
+
 	}
 /* Media */
