@@ -4,8 +4,8 @@ body{
 	background: url(../img/main-bg.jpg) fixed;
 	background-size: cover;
    color: #fff;
-   font-size: 1.2em; 
-   font-family: 'Raleway', Arial, sans-serif;
+   font-size: 1.2em;
+	font-family: 'Philosopher', Arial, sans-serif;
 }
 
 header {
@@ -35,8 +35,8 @@ nav>ul>li {
 
 nav>ul>li>a {
 	display: inline-block;
-	border: 2px solid rgba(255, 255, 255, 0);
-	border-radius: 20px;
+	border: 2px solid rgba(255, 255, 255, 0.35);
+	border-radius: 15px;
 	font-size: 0.8em;
 }
 
@@ -44,7 +44,7 @@ nav>ul>li>a:hover {
 	color: #fff;
 	text-decoration: none;
 	border: 2px solid #fff;
-	border-radius: 20px;
+	border-radius: 15px;
 }
 
 
@@ -59,7 +59,8 @@ h1 {
 
 h3 {
 	font-size: 2em;
-	color: #6C615E;	
+	color: #6C615E;
+	border-bottom: 3px solid;	
 }
 
 a {
@@ -83,6 +84,8 @@ footer>ul>li {
 
 .logo {
 	float: left;
+	border: 2px solid rgba(255, 255, 255, 0.35);
+	border-radius: 15px;
 }
 
 .content {
@@ -93,9 +96,11 @@ footer>ul>li {
 }
 
 .phrase {
+
 	color: #fff;
 	font-size: 2.5em;
 	text-align: center;
+	
 }
 
 .h3-title {
@@ -109,21 +114,27 @@ footer>ul>li {
 .old, .sport, .place {
 	float: left;
 	border-radius: 25%;
-	margin: 0 40px 50px 10px;
+	margin: 25px 40px 70px 10px;
 }
 
 
 .kovali, .people {
 	float: right;
 	border-radius: 25%;
-	margin: 0 10px 50px 20px;
+	margin: 25px 10px 70px 20px;
 }
 
 
 /* ***************  */
+
+article>p {
+	margin: 75px 20px 0 25px;	
+}
+
 .text {
-	padding-top: 30px;
-	font-weight: 800;
+	padding-top: 15px;
+	padding-bottom: 90px;
+	margin-bottom: 25px;
 }
 
 .main-phrase {
@@ -155,7 +166,6 @@ footer>ul>li {
 	padding: 50px 65px 0 0;
 	color: #6C615E;
 	font-size: 1em;
-	font-weight: 800;
 }
 
 .team a {
