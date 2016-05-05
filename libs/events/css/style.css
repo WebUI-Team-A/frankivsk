@@ -4,12 +4,12 @@ body{
 	background: #fff;
 	background-size: cover;
    font-size: 1.2em; 
-   font-family: 'Raleway', Arial, sans-serif;
+   font-family: 'Philosopher', Arial, sans-serif;
 }
 
 img{
   max-width: 100%;
- }
+}
 
 .clear {
 	clear: both;
@@ -18,7 +18,7 @@ img{
 /* Header */
 
 header {
-	background: #B06F6F;
+	background: rgba(1, 97, 187, 0.9);
    text-shadow: 1px 1px 2px #000;
 }
 
@@ -35,7 +35,7 @@ header {
 
 	nav>ul>li>a {
 		border: 2px solid rgba(255, 255, 255, 0.33);
-		border-radius: 20px;
+		border-radius: 15px;
 		font-size: 0.8em;
 	}
 
@@ -50,7 +50,7 @@ header {
 		color: #fff;
 		text-decoration: none;
 		border: 2px solid #fff;
-		border-radius: 20px;
+		border-radius: 15px;
 	}
 	.dbg {
 		background:rgba(40, 76, 88, 0.498039);
@@ -58,6 +58,9 @@ header {
 
 	.logo {
 		float: left;
+		border: 2px solid rgba(255, 255, 255, 0.35);
+	   border-radius: 15px;
+		margin-bottom: 10px;
 	}
 
 /* Main content */
@@ -80,10 +83,13 @@ main {
 	   margin: 40px 0;
 	   line-height: 1.1em;
 	   color: #6C615E;
+		border-bottom: 2px solid;
+		padding-bottom: 20px;
 	}
 
 	article {
-		margin-bottom: 70px;
+	margin-bottom: 70px;
+	border-bottom: 2px solid #6C615E;
 	}
 
 	article>header {
@@ -104,7 +110,6 @@ main {
 	}
 
 	article>p {
-		font-weight: 800;
 		margin-bottom: 20px;
 	}
 
