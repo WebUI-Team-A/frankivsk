@@ -35,7 +35,7 @@ nav>ul>li {
 
 nav>ul>li>a {
 	display: inline-block;
-	border: 2px solid rgba(255, 255, 255, 0.33);
+	border: 2px solid rgba(255, 255, 255, 0);
 	border-radius: 20px;
 	font-size: 0.8em;
 }
@@ -108,14 +108,14 @@ footer>ul>li {
 /* Styles for images*/
 .old, .sport, .place {
 	float: left;
-	border-radius: 50%;
+	border-radius: 25%;
 	margin: 0 40px 50px 10px;
 }
 
 
 .kovali, .people {
 	float: right;
-	border-radius: 50%;
+	border-radius: 25%;
 	margin: 0 10px 50px 20px;
 }
 
