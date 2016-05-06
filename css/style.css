@@ -84,8 +84,8 @@ footer>ul>li {
 
 .logo {
 	float: left;
-	/*border: 2px solid rgba(255, 255, 255, 0.35);*/
-	border-radius: 15px;
+	width: 154px;
+	height: 115px;
 }
 
 .content {
