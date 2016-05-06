@@ -22,31 +22,28 @@ header {
    text-shadow: 1px 1px 2px #000;
 }
 
-	nav {
+	.menu {
 		display: block;
 		float: right;
 		margin-top: 10px;
-		padding: 20px 20px 0 0;
+		padding: 25px 20px 0 0;
 	}
 		
-	nav>ul>li {
+	.menu>ul>li {
 		display: inline-block;
 	}
 
-	nav>ul>li>a {
+	.menu>ul>li>a {
 		border: 2px solid rgba(255, 255, 255, 0.33);
 		border-radius: 15px;
 		font-size: 0.8em;
-	}
-
-	a {
 		text-decoration: none;
 		padding: 5px 20px;
 		display: block;
 		color: #fff;
 	}
 
-	nav>ul>li>a:hover {
+	.menu>ul>li>a:hover {
 		color: #fff;
 		text-decoration: none;
 		border: 2px solid #fff;
@@ -58,6 +55,7 @@ header {
 
 	.logo {
 		float: left;
+		padding-left: 15px;
 		width: 154px;
 	   height: 115px;
 	}
@@ -115,16 +113,34 @@ main {
 	article>p>a {
 		display: inline-block;
 		color: #6C615E;
-		font-weight: 800;
+		padding: 5px 10px;
+		text-decoration: none;
 		border: 2px solid #6C615E;
 		border-radius: 25px;
 	}
 
-	aside {
-		float: right;
-		width: 30%;
-		background: #B09B91;
+	.last {
+		border: none;
 	}
+
+/* Aside bar */	
+
+aside {
+	float: right;
+	width: 30%;	
+}
+	.category>ul>li>a {
+		color: #6C615E;
+		text-decoration: none;
+	}
+
+	.widget {
+		height: 200px;
+	}
+	
+	
+
+
 	
 
 
