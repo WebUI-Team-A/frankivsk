@@ -13,8 +13,7 @@ img{
 	clear: both;
 }
 
-header,
-footer {
+header {
 	background: rgba(1, 97, 187, 0.9);
 	text-shadow: 1px 1px 2px #000;
 }
@@ -27,6 +26,7 @@ footer {
 	width: 154px;
 	height: 115px;
 	float: left;
+	padding-left: 15px;
 }
 
 nav {
@@ -43,6 +43,10 @@ nav ul li a {
 	border: 2px solid rgba(255, 255, 255, 0.33);
 	border-radius: 15px;
 	font-size: 0.8em;
+	text-decoration: none;
+	padding: 5px 20px;
+	display: block;
+	color: #fff;
 }
 
 nav ul li a:hover {
@@ -52,25 +56,30 @@ nav ul li a:hover {
 	border-radius: 15px;
 }
 
-a {
-	text-decoration: none;
-	padding: 5px 20px;
-	display: block;
-	color: #fff;
-}
-
 .wrapper {
 	width: 1260px;
 	margin: 0 auto;
 }
 
+h1 {
+	font-size: 2em;
+	text-align: center;
+	margin: 40px 0;
+	line-height: 1.1em;
+	color: #6C615E;
+	border-bottom: 2px solid;
+	padding-bottom: 30px;
+}
+
 article {
 	overflow: hidden;
 	margin-top: 35px;
+	border-bottom: 2px solid #6C615E;
 }
 
 .thumbnail {
 	float: left;
+	margin-bottom: 35px;
 }
 
 .thumbnail img {
@@ -84,7 +93,7 @@ article {
 
 article h3 {
 	margin: 25px 0 25px 35px;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: #6C615E;
 	text-transform: uppercase;
 }
@@ -93,6 +102,37 @@ article p {
 	line-height: 1.2;
 }
 
+.no-border {
+	border: none;
+}
+
 footer {
-	height: 60px;
+	height: 100px;
+	color: #000;
+	border-top: 2px solid #6C615E;
+	border-bottom: 3px solid #6C615E;
+}
+
+footer ul li {
+	display: inline-block;	
+}
+
+.social {
+	float: left;
+	padding-top: 38px;
+	margin-left: 30px;
+}
+
+.team {
+	float: right;
+	padding: 45px 65px 0 0;
+	color: #6C615E;
+	font-size: 1em;
+	font-weight: 800;
+}
+
+.team a {
+	display: inline-block;
+	color: #6C615E;
+	padding: 0;
 }
