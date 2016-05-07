@@ -179,17 +179,13 @@ aside {
 	input[type="email"] {
 	   padding: 10px 15px;
 	   margin-bottom: 10px;
-	   font-size: 1em;
+	   font-size: 0.75em;
 	}
    
    input[type="button"] {
 		color: #6C615E;
 		font-size: 0.75em;
    }
-
-	
-
-
 
 /* Footer  */
 
