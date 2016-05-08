@@ -121,6 +121,10 @@ main {
 		border-radius: 25px;
 	}
 
+	p {
+		text-indent: 20px;
+	}
+
 	.last {
 		border: none;
 	}
@@ -131,7 +135,10 @@ aside {
 	float: right;
 	width: 30%;	
 }
-
+	.widget>img {
+		border-radius: 5px 15px 5px 15px;
+	}
+	
 	.category>ul>li{
 		margin-bottom: 10px;
 	}
