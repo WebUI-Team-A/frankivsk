@@ -118,6 +118,65 @@ article img {
 .foto2{
 	float: right;
 }
+aside {
+	float: right;
+	width: 30%;	
+}
+
+.category>ul>li{
+		margin-bottom: 10px;
+}
+
+.category>ul>li>a {
+		color: #6C615E;
+		text-decoration: none;
+		
+}
+
+.widget {
+		margin-bottom: 75px;
+}
+	
+.widget>h2 {
+		text-transform: uppercase;
+		padding: 10px 20px;
+		text-decoration: underline;
+		margin-bottom: 20px;		
+}
+	
+.search {
+		color: #b9b9b9;
+		font-size: 0.75em;
+		border: 1px solid #e1e0e0;
+		padding: 10px 15px;
+}
+
+.widget>nav {
+		margin-left: 18px;
+}
+
+
+.widget>img {
+	margin-bottom: 10px;
+}
+
+.name, .surname, .email, {
+	color: #b9b9b9;
+	font-size: 0.75em;
+	border: 1px solid #e1e0e0;
+}
+
+input[type="text"], 
+input[type="email"] {
+	   padding: 10px 15px;
+	   margin-bottom: 10px;
+	   font-size: 0.75em;
+}
+   
+   input[type="button"] {
+		color: #6C615E;
+		font-size: 0.75em;
+}
 
 
 
