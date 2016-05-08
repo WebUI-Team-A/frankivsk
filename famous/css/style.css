@@ -79,16 +79,19 @@ article {
 
 .thumbnail {
 	float: left;
-	margin-bottom: 35px;
+
+	
 }
 
 .thumbnail img {
 	border: 5px solid #9A9696;
 	border-radius: 50%;
+	margin-top: 30px;
 }
 
 .post-content {
 	margin-left: 250px;
+	overflow: hidden;
 }
 
 article h3 {
@@ -100,6 +103,30 @@ article h3 {
 
 article p {
 	line-height: 1.2;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #6C615E;
+}
+
+.galery-wrapper {
+	width: 100%;
+	margin-left: 15%;
+	overflow: hidden;
+}
+
+.galery img {
+	width: 150px;
+	margin-right: 20px;
+	box-shadow: 1px 1px 5px #777;
+	transition: transform 0.5s;
+}
+
+.galery:hover img {
+	transform: scale(1.15) rotate(2deg);
+}
+
+.galery {
+	float: left;
+	margin: 30px 0 30px 0;
 }
 
 .no-border {
