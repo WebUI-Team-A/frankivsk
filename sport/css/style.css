@@ -177,19 +177,22 @@ input[type="email"] {
 		color: #6C615E;
 		font-size: 0.75em;
 }
+footer {
+	border-top: 2px solid #6C615E;
+	border-bottom: 3px solid #6C615E;
+	clear: both;
+}
 
-
-
-
-
-
+footer>ul>li {
+	display: inline-block;
+	margin-left: 20px;	
+}
 
 .footer {
 	background: #F0F6FC;
 	height: 100px;
 	background: #fff;
 	color: #000;
-	clear:left ;
 }
 
 .social {
@@ -202,14 +205,21 @@ input[type="email"] {
 	float: right;
 	padding: 50px 65px 0 0;
 	color: #6C615E;
-	font-size: 1em;
-	font-weight: 800;
+	font-size: 1em;		
 }
 
-.team a {
+.team>a {
 	color: #6C615E;
 	display: inline-block;
 	padding: 0;
+	text-decoration: none;
 }
+
+
+
+
+
+
+
 
 /* Media */
