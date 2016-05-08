@@ -80,40 +80,46 @@ article{
 .velosport{
 	border-bottom: none;
 }
-
-article{
-	margin: 20px;
-}
-h2{
+h1 {
+	font-size: 2em;
+	font-weight: normal;
 	text-align: center;
-	padding: 5px;
+	margin: 40px 0;
+	line-height: 1.1em;
+	color: #6C615E;
+	border-bottom: 2px solid;
+	padding-bottom: 20px;
 }
-aside{
-	float: right;
-	width: 300px;
-	margin: 10px 50px;
-}
-.form{
-	color: black;
-	padding: 50px;
-	border: 2px solid #6c615e;
-}
-.row{
-	padding: 5px 0;
-}
-.form h2 {
-	color: #696969;
-	font-size: 22px;
-	border-bottom: 1px solid #b6b6b6;
+article header {
+	font-size: 0;
+	background: none;
 	margin-bottom: 10px;
 }
-.form p{
-	font-weight: bold;
-	margin-bottom: 5px;
+article h2 {
+	margin: 25px 0 30px 20px;
+	font-size: 1.5em;
+	color: #6C615E;
+	text-transform: uppercase;
+	
+
+}
+article p {
+	    text-align: justify;
+		margin-bottom: 10px;
+		
 }
 
-	
-	
+article img {
+	margin: 10px;
+}
+.foto1{
+	float: left;
+}
+.foto2{
+	float: right;
+}
+
+
 
 
 
