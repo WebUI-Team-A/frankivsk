@@ -111,6 +111,7 @@ article p {
 
 article img {
 	margin: 10px;
+	border-radius: 10%;
 }
 .foto1{
 	float: left;
