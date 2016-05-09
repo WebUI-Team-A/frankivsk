@@ -65,7 +65,7 @@ header {
 
 
 /* Main content */
-section{
+.main{
 	margin: 0 auto;
 	max-width: 1260px;
 	background: #fff;
