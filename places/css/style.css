@@ -76,10 +76,9 @@ footer ul li {
 	}
 	.team {
 		float: right;
-		padding: 50px 65px 0 0;
+		padding: 50px 65px 25px 0;
 		color: #6C615E;
-		font-size: 1em;
-		font-weight: 800;
+		font-size: 1em;		
 	}
 
 	.team>a {
