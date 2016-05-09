@@ -132,10 +132,12 @@ main {
 
 aside {
 	float: right;
-	width: 30%;	
+	width: 30%;
+	text-align: center;	
 }
 	.widget>img {
 		border-radius: 5px 15px 5px 15px;
+		margin-bottom: 10px;
 	}
 	
 	.category>ul>li{
@@ -168,11 +170,6 @@ aside {
 
 	.widget>nav {
 		margin-left: 18px;
-	}
-
-
-	.widget>img {
-		margin-bottom: 10px;
 	}
 
 	.name, .surname, .email, {
