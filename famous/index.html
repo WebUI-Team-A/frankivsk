@@ -12,7 +12,7 @@
 	<header>
 		<div class="dbg">              
 			<a class="logo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
-			<nav> 
+			<nav class="menu"> 
 				<ul> 
 					<li><a href="../index.html">Домашня</a></li>               
           <li><a href="#">Станіславів</a></li>
@@ -28,92 +28,125 @@
     <section>
     	<div class="wrapper">
         <h1>Відомі особистості нашого міста</h1>
-        <article>
-          <div class="thumbnail">
-        		<img class="photo" src="img/virastuk_v.jpg" alt="Василь Вірастюк">
+        <main class="main-content">
+          <article>
+            <div class="thumbnail">
+          		<img class="photo" src="img/virastuk_v.jpg" alt="Василь Вірастюк">
+            </div>
+          		<div class="post-content">
+          			<h3>Василь Вірастюк</h3>
+          			<p>Український ломус, володар титулів «Найсильніша людина України» (2000, 2001, 2002, 2003, 2005) та «Найсильніша людина світу» (2004). Член збірної України, яка виборола титул «Найсильніша нація світу» у 2003 та 2004 роках. Заслужений майстер спорту України.</p>
+          		</div>
+          </article>
+          <article>
+            <div class="thumbnail">
+          		<img class="photo" src="img/lama.jpg" alt="Наталія Дзеньків">
+            </div>
+          		<div class="post-content">
+              	<h3>Наталія Дзеньків</h3>
+              	<p>Українська співачка, пісняр, вокалістка гурту Lama. Відома також як Lama, оскільки на початку існування гурту вона була єдиним постійним його учасником.</p>
+            	</div>
+          </article>
+          <article>
+            <div class="thumbnail">
+            	<img class="photo" src="img/virastuk_r.jpg" alt="Роман Вірастюк">
+            </div>
+            	<div class="post-content">
+              	<h3>Роман Вірастюк</h3>
+              	<p>Український спортсмен, штовхальник ядра. Срібний призер Чемпіонату Європи в 1994, зайняв шосте місце на Олімпіаді в Аталанті (1996). Особистий рекорд 21.34 метри в 2000 в Івано-Франківську. Брат українського стронгмена Василя Вірастюка. Закінчив Івано-Франківський коледж фізичного виховання.</p>
+            	</div>
+          </article>
+          <article>
+            <div class="thumbnail">
+            	<img class="photo" src="img/karol.jpg" alt="Тіна Кароль">
+            </div>
+            	<div class="post-content">
+              	<h3>Тіна Кароль</h3>
+              	<p>Українська співачка та акторка, заслужена артистка України, солістка Ансамблю пісні і танцю Збройних сил України. Лауреат міжнародного пісенного конкурсу молодих виконавців «Нова хвиля 2005». З піснею Show me your love представляла Україну на пісенному конкурсі Євробачення, що відбувся в травні 2006 р. у Афінах (Греція), де посіла сьоме місце.</p>
+            	</div>
+          </article>
+          <article>
+            <div class="thumbnail">
+            	<img class="photo" src="img/prohasko.jpg" alt="Тарас Прохасько">
+            </div>
+            	<div class="post-content">
+              	<h3>Тарас Прохасько</h3>
+              	<p>Сучасний український письменник, журналіст, один із представників станіславського феномену. Брат перекладача Юрія Прохаська, племінник Ірини Вільде.</p>
+            	</div>
+          </article>
+          <article>
+            <div class="thumbnail">
+            	<img class="photo" src="img/andruhovich.jpg" alt="Юрій Андрухович">
+            </div>
+            	<div class="post-content">
+              	<h3>Юрій Андрухович</h3>
+              	<p>Український поет, прозаїк, перекладач, есеїст. Живе і працює в Івано-Франківську. Присутність Андруховича в Івано-Франківську стала вагомим чинником ферментації так званого «станіславського феномену» та формування місцевої мистецької еліти. Творчість Андруховича має значний вплив на перебіг сьогоднішнього літературного процесу в Україні, з його іменем пов'язані перші факти неупередженого зацікавлення сучасною українською літературою на Заході. Твори Андруховича перекладені багатьма мовами світу.</p>
+            	</div> 
+          </article>
+          <article>
+            <div class="thumbnail">
+            	<img class="photo" src="img/vitovska.jpg" alt="Ірма Вітовська">
+            </div>
+            	<div class="post-content">
+              	<h3>Ірма Вітовська</h3>
+              	<p>Українська акторка театру та кіно; працює у Молодому театрі (з 1998), відома за роллю Лесі у серіалі «Леся+Рома» (2005—2007). Ведуча розважальних шоу на українському телебаченні. Заслужена артистка України (2016).</p>
+            	</div>
+          </article>
+          <article class="no-border">
+            <div class="thumbnail">
+            	<img class="photo" src="img/gorbunov.jpg" alt="Юрій Горбунов">
+            </div>
+            	<div class="post-content">
+              	<h3>Юрій Горбунов</h3>
+              	<p>Український телеведучий (канал 1+1), шоумен, актор. Виріс та працював у Івано-Франківську. У 2012 році став одним з восьми українців, яким довірили нести олімпійський вогонь в Лондоні.</p>
+            	</div>
+          </article>
+        </main>
+        <aside>
+          <div class="widget">
+            <h2 class="first">Пошук</h2>
+              <form action="#" method="get">
+                <input type="search" class="search" placeholder="Пошук">
+              </form>
           </div>
-        		<div class="post-content">
-        			<h3>Василь Вірастюк</h3>
-        			<p>Український ломус, володар титулів «Найсильніша людина України» (2000, 2001, 2002, 2003, 2005) та «Найсильніша людина світу» (2004). Член збірної України, яка виборола титул «Найсильніша нація світу» у 2003 та 2004 роках. Заслужений майстер спорту України.</p>
-              <section class="galery-wrapper">
-                <div class="galery">
-                  <img src="img/vv1.jpg" alt="Photo 1">
-                </div>
-                <div class="galery">
-                  <img src="img/vv2.jpg" alt="Photo 2">
-                </div>
-                <div class="galery">
-                  <img src="img/vv3.jpg" alt="Photo 3">
-                </div>
-                <div class="galery">
-                  <img src="img/vv4.jpg" alt="Photo 4">
-                </div>
-              </section>
-        		</div>
-        </article>
-        <article>
-          <div class="thumbnail">
-        		<img class="photo" src="img/lama.jpg" alt="Наталія Дзеньків">
+          <div class="widget">
+            <h2>Визначні люди</h2>
+              <nav class="category">
+                <ul>
+                  <li><a href="#kovali">Василь Вірастюк</a></li>
+                  <li><a href="#fest">Наталія Дзеньків</a></li>
+                  <li><a href="#event">Роман Вірастюк</a></li>
+                  <li><a href="#event">Тіна Кароль</a></li>
+                  <li><a href="#event">Тарас Прохасько</a></li>
+                  <li><a href="#event">Юрій Андрухович</a></li>
+                  <li><a href="#event">Ірма Вітовська</a></li>
+                  <li><a href="#event">Юрій Горбунов</a></li>
+                </ul>
+              </nav>
           </div>
-        		<div class="post-content">
-            	<h3>Наталія Дзеньків</h3>
-            	<p>Українська співачка, пісняр, вокалістка гурту Lama. Відома також як Lama, оскільки на початку існування гурту вона була єдиним постійним його учасником.</p>
-          	</div>
-        </article>
-        <article>
-          <div class="thumbnail">
-          	<img class="photo" src="img/virastuk_r.jpg" alt="Роман Вірастюк">
+          <div class="widget">
+            <h2>Підписатися на людей</h2>               
+            <form action="#" method="get">
+              <input type="text" placeholder="І'мя" class="name">
+              <input type="text" placeholder="Прізвище" class="surname">
+              <input type="email" placeholder="email" class="email">
+              <br>
+              <input type="button" value="Надіслати" class="subscribe">                  
+            </form>       
           </div>
-          	<div class="post-content">
-            	<h3>Роман Вірастюк</h3>
-            	<p>Український спортсмен, штовхальник ядра. Срібний призер Чемпіонату Європи в 1994, зайняв шосте місце на Олімпіаді в Аталанті (1996). Особистий рекорд 21.34 метри в 2000 в Івано-Франківську. Брат українського стронгмена Василя Вірастюка. Закінчив Івано-Франківський коледж фізичного виховання.</p>
-          	</div>
-        </article>
-        <article>
-          <div class="thumbnail">
-          	<img class="photo" src="img/karol.jpg" alt="Тіна Кароль">
+          <div class="widget">
+            <h2>Галерея</h2>
+            <img src="img/vv1.jpg" alt="Kovali">
+            <img src="img/nd.jpg" alt="Kovali">
+            <img src="img/rv.jpg" alt="Kovali">
+            <img src="img/tk.jpg" alt="Fest">
+            <img src="img/tp.jpg" alt="Fest">
+            <img src="img/ja.jpg" alt="Rally">
+            <img src="img/iv.jpg" alt="Rally">
+            <img src="img/jg.jpg" alt="Rally">
           </div>
-          	<div class="post-content">
-            	<h3>Тіна Кароль</h3>
-            	<p>Українська співачка та акторка, заслужена артистка України, солістка Ансамблю пісні і танцю Збройних сил України. Лауреат міжнародного пісенного конкурсу молодих виконавців «Нова хвиля 2005». З піснею Show me your love представляла Україну на пісенному конкурсі Євробачення, що відбувся в травні 2006 р. у Афінах (Греція), де посіла сьоме місце.</p>
-          	</div>
-        </article>
-        <article>
-          <div class="thumbnail">
-          	<img class="photo" src="img/prohasko.jpg" alt="Тарас Прохасько">
-          </div>
-          	<div class="post-content">
-            	<h3>Тарас Прохасько</h3>
-            	<p>Сучасний український письменник, журналіст, один із представників станіславського феномену. Брат перекладача Юрія Прохаська, племінник Ірини Вільде.</p>
-          	</div>
-        </article>
-        <article>
-          <div class="thumbnail">
-          	<img class="photo" src="img/andruhovich.jpg" alt="Юрій Андрухович">
-          </div>
-          	<div class="post-content">
-            	<h3>Юрій Андрухович</h3>
-            	<p>Український поет, прозаїк, перекладач, есеїст. Живе і працює в Івано-Франківську. Присутність Андруховича в Івано-Франківську стала вагомим чинником ферментації так званого «станіславського феномену» та формування місцевої мистецької еліти. Творчість Андруховича має значний вплив на перебіг сьогоднішнього літературного процесу в Україні, з його іменем пов'язані перші факти неупередженого зацікавлення сучасною українською літературою на Заході. Твори Андруховича перекладені багатьма мовами світу.</p>
-          	</div> 
-        </article>
-        <article>
-          <div class="thumbnail">
-          	<img class="photo" src="img/vitovska.jpg" alt="Ірма Вітовська">
-          </div>
-          	<div class="post-content">
-            	<h3>Ірма Вітовська</h3>
-            	<p>Українська акторка театру та кіно; працює у Молодому театрі (з 1998), відома за роллю Лесі у серіалі «Леся+Рома» (2005—2007). Ведуча розважальних шоу на українському телебаченні. Заслужена артистка України (2016).</p>
-          	</div>
-        </article>
-        <article class="no-border">
-          <div class="thumbnail">
-          	<img class="photo" src="img/gorbunov.jpg" alt="Юрій Горбунов">
-          </div>
-          	<div class="post-content">
-            	<h3>Юрій Горбунов</h3>
-            	<p>Український телеведучий (канал 1+1), шоумен, актор. Виріс та працював у Івано-Франківську. У 2012 році став одним з восьми українців, яким довірили нести олімпійський вогонь в Лондоні.</p>
-          	</div>
-        </article>
+        </aside>
+        <div class="clear"></div>
     	</div>
     </section>
     <footer>                  

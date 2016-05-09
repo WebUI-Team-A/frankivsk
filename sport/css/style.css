@@ -65,8 +65,8 @@ header {
 
 
 /* Main content */
-section{
-	margin: 0 auto;
+.wrapper{
+	margin: 0 auto; 
 	max-width: 1260px;
 	background: #fff;
 }
@@ -76,6 +76,7 @@ section{
 }
 article{
 	border-bottom: 2px solid;
+	margin-bottom: 20px;
 }
 .velosport{
 	border-bottom: none;
@@ -111,6 +112,7 @@ article p {
 
 article img {
 	margin: 10px;
+	border-radius: 5%;
 }
 .foto1{
 	float: left;
@@ -135,13 +137,15 @@ aside {
 
 .widget {
 		margin-bottom: 75px;
+		text-align: center;
 }
 	
 .widget>h2 {
 		text-transform: uppercase;
 		padding: 10px 20px;
 		text-decoration: underline;
-		margin-bottom: 20px;		
+		margin-bottom: 20px;	
+        text-align: center;		
 }
 	
 .search {
@@ -158,6 +162,7 @@ aside {
 
 .widget>img {
 	margin-bottom: 10px;
+	border-radius: 5%;
 }
 
 .name, .surname, .email, {
