@@ -76,6 +76,7 @@ header {
 }
 article{
 	border-bottom: 2px solid;
+	margin-bottom: 20px;
 }
 .velosport{
 	border-bottom: none;
