@@ -283,14 +283,12 @@ h3{
 	
 	flex-basis: 100%;
 }
+aside{
+	flex-basis: 100%;
+	order: 4;
 }
-.greater_flex_parent{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin-top: 70px;
-	
 }
+
 
 
 
