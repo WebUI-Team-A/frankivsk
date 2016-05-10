@@ -72,7 +72,7 @@ header {
 aside {
 	float: right;
 	width: 30%;
-	text-align: center;	
+	/*text-align: center;*/	
 }
 
 h1 {

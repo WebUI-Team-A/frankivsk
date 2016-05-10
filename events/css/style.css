@@ -23,10 +23,10 @@ header {
 }
 
 	.menu {
-		display: block;
-		float: right;
 		margin-top: 10px;
+		float: right;
 		padding: 25px 20px 0 0;
+		display: block;
 	}
 		
 	.menu>ul>li {
@@ -133,7 +133,7 @@ main {
 aside {
 	float: right;
 	width: 30%;
-	text-align: center;	
+	/*text-align: center;	*/
 }
 	.widget>img {
 		border-radius: 5px 15px 5px 15px;
@@ -230,3 +230,25 @@ footer {
 	}
 
 /* Media */
+
+@media screen and (max-width:768px){
+	
+	.menu>ul>li {
+		margin-bottom: 5px;
+		display: block;
+	}
+
+	main {
+		float: none;
+		width: 95%;
+		margin: 0 20px;
+	}
+
+	aside {
+		float: none;
+		width: 100%;
+		text-align: center;	
+	}
+
+} 
+
