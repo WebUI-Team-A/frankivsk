@@ -87,6 +87,7 @@ footer {
 	border-top: 2px solid #6C615E;
 	border-bottom: 3px solid #6C615E;
 	margin-top: 250px;
+	margin-bottom: 10px;
 }
 
 footer ul li {
@@ -203,6 +204,10 @@ aside {
 		color: #6C615E;
 		font-size: 0.75em;
    }
+   /*.wrapper {
+	
+	max-width: 1260px;
+}*/
 
 /* ***************  */
 
