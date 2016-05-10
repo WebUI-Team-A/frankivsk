@@ -23,10 +23,10 @@ header {
 }
 
 	.menu {
-		margin-top: 10px;
-		float: right;
-		padding: 25px 20px 0 0;
 		display: block;
+		float: right;
+		margin-top: 10px;
+		padding: 25px 20px 0 0;
 	}
 		
 	.menu>ul>li {
@@ -61,6 +61,7 @@ header {
 	}
 
 /* Wrapper */
+
 
 .wrapper {
 	margin: 0 auto;
@@ -120,7 +121,9 @@ main {
 		border-radius: 25px;
 	}
 
-	
+	p {
+		/*text-indent: 20px;*/
+	}
 
 	.last {
 		border: none;
@@ -130,12 +133,10 @@ main {
 
 aside {
 	float: right;
-	width: 30%;
-	
+	width: 30%;	
 }
 	.widget>img {
 		border-radius: 5px 15px 5px 15px;
-		margin-bottom: 10px;
 	}
 	
 	.category>ul>li{
@@ -168,6 +169,11 @@ aside {
 
 	.widget>nav {
 		margin-left: 18px;
+	}
+
+
+	.widget>img {
+		margin-bottom: 10px;
 	}
 
 	.name, .surname, .email, {
@@ -228,25 +234,3 @@ footer {
 	}
 
 /* Media */
-
-@media screen and (max-width:768px){
-	
-	.menu>ul>li {
-		margin-bottom: 5px;
-		display: block;
-	}
-
-	main {
-		float: none;
-		width: 95%;
-		margin: 0 20px;
-	}
-
-	aside {
-		float: none;
-		width: 100%;
-		text-align: center;	
-	}
-
-} 
-
