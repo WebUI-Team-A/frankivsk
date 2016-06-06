@@ -84,8 +84,8 @@ footer>ul>li {
 
 .logo {
 	float: left;
-	border: 2px solid rgba(255, 255, 255, 0.35);
-	border-radius: 15px;
+	width: 154px;
+	height: 115px;
 }
 
 .content {
@@ -128,13 +128,14 @@ footer>ul>li {
 /* ***************  */
 
 article>p {
-	margin: 75px 20px 0 25px;	
+	margin: 48px 20px 0px 25px;
+	padding-bottom: 9px;
+	text-indent: 20px;	
 }
 
 .text {
 	padding-top: 15px;
 	padding-bottom: 90px;
-	margin-bottom: 25px;
 }
 
 .main-phrase {
@@ -173,6 +174,11 @@ article>p {
 	display: inline-block;
 	padding: 0;
 }
+span {
+	color: red;
+	font-weight: bold;
+}
+
 
 /* Media */
 
@@ -216,14 +222,23 @@ article>p {
 		margin: 0 40px;
 	}
 
-	.footer {	
-		height: 120px;	
+	.old, .sport, .place {
+	float: none;
 	}
+
+
+	.kovali, .people {
+		float: none;
+	}	
 
 	.social {
 		padding-top: 20px;
 		float: none;
 		margin-left: 10px;
+	}
+
+	.footer {	
+		height: 120px;	
 	}
 
 	.team {
